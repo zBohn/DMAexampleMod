@@ -1,0 +1,12 @@
+package DMAexample.tools;
+
+import net.minecraft.item.ItemSword;
+
+public class BoneSword extends ItemSword {
+
+	public BoneSword(ToolMaterial toolmaterial) 
+	{
+		super(toolmaterial);
+	}
+
+}

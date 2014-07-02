@@ -1,0 +1,13 @@
+package DMAexample.food;
+
+import net.minecraft.item.ItemFood;
+
+public class Strawberry extends ItemFood {
+
+	public Strawberry(int i, float p_i45339_2_, boolean p_i45339_3_) 
+	{
+		super(i, p_i45339_2_, p_i45339_3_);
+		// TODO Auto-generated constructor stub
+	}
+
+}

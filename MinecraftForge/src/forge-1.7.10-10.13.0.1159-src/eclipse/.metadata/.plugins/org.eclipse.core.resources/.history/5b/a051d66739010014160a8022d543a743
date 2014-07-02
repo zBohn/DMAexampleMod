@@ -1,0 +1,18 @@
+package DMAexample.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class HardDirt extends Block {
+
+	public HardDirt(Material material) 
+	{
+		super(material);
+		// TODO Auto-generated constructor stub
+		
+		setHardness(1.0f);//As hard as dirt
+		setStepSound(Block.soundTypeGravel);//Make it sound like Gravel when stepped/mined.
+		
+	}
+
+}

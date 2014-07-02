@@ -1,0 +1,11 @@
+package DMAexample.items;
+
+import net.minecraft.item.Item;
+
+public class ObsidianStick extends Item {
+
+	public ObsidianStick() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

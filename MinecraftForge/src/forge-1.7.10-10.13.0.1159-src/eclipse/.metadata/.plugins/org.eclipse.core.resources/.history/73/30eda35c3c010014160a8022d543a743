@@ -1,0 +1,25 @@
+package DMAexample.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+
+public class MithrilBlock extends Block {
+
+	public MithrilBlock(Material material) 
+	{
+		super(material);
+		// TODO Auto-generated constructor stub
+		
+		setHardness(4.0f);//33% harder than Diamond Ore
+		setStepSound(Block.soundTypeStone);//When the player walks over this block, play the following sound
+		setCreativeTab(CreativeTabs.tabBlock);
+		//0=Wood, 1=Stone, 2=Iron, 3=Diamond
+		setHarvestLevel("pickaxe", 3);
+		setResistance(15.0f);//Identical Resistance to other Ores.
+		setBlockTextureName("ice_packed");//Make it look like a Diamond Block, for now.
+		setLightLevel(14.0f);//Torch Brightness
+	}
+
+}

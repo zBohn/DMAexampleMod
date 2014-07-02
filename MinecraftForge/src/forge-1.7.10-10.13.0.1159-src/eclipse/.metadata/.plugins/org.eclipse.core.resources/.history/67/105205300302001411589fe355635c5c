@@ -1,0 +1,17 @@
+package DMAexample.tools;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemSword;
+
+public class BoneSword extends ItemSword {
+
+	public BoneSword(ToolMaterial toolmaterial) 
+	{
+		super(toolmaterial);
+		
+		setCreativeTab(CreativeTabs.tabCombat);//Place this food in the food Creative Tab
+		setTextureName("stone_sword");//Use the Cookie Texture from vanilla
+		setUnlocalizedName("bonesword");//Set the internal name so that the Lang file can recognise it.
+	}
+
+}

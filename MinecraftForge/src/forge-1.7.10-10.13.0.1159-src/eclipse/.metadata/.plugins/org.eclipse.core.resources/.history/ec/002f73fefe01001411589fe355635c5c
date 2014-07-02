@@ -1,0 +1,16 @@
+package DMAexample.food;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemFood;
+
+public class Strawberry extends ItemFood {
+
+	public Strawberry(int i, float healthRestored, boolean petFriendly) 
+	{
+		super(i, healthRestored, petFriendly);
+		
+		setCreativeTab(CreativeTabs.tabFood);//Place this food in the food Creative Tab
+		setTextureName("cookie");//Use the Cookie Texture from vanilla
+		setUnlocalizedName("strawberry");//Set the internal name so that the Lang file can recognise it.
+	}
+}

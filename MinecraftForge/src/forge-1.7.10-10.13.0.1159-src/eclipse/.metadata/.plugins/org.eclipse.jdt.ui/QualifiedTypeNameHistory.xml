@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockSlab"/>
+<fullyQualifiedTypeName name="net.minecraft.enchantment.Enchantment"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="DMAexample.Blocks.Mithril"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="DMAexample.blocks.MithrilBlock"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="DMAexample.blocks.HardDirt"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.LAND"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.LanguageRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="DMAexample.items.ObsidianStick"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="DMAexample.items.MithrilIngot"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="DMAexample.MyCode"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+</qualifiedTypeNameHistroy>

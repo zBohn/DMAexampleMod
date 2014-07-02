@@ -1,0 +1,46 @@
+package DMAexample.blocks;
+
+import java.util.Random;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+
+public class MithrilOre extends Block 
+{
+
+	public MithrilOre(Material material) 
+	{
+		super(material);
+		// TODO Auto-generated constructor stub
+		
+		setHardness(4.0f);//33% harder than Diamond Ore
+		setStepSound(Block.soundTypeStone);//When the player walks over this block, play the following sound
+		setCreativeTab(CreativeTabs.tabBlock);
+		//0=Wood, 1=Stone, 2=Iron, 3=Diamond
+		setHarvestLevel("pickaxe", 3);
+		setResistance(15.0f);//Identical Resistance to other Ores.
+		setBlockTextureName("dmaexample:mithril_ore");//Make it look like a Diamond Block, for now.
+		//setLightLevel(14.0f);//Torch Brightness
+		//setLightOpacity(1000);//4096 MAX, 0 == Glass
+		setBlockName("mithrilore");
+	}
+	
+	@Override
+	public Item getItemDropped(int metadata, Random random, int fortune)
+	{
+		return Items.beef;
+	}
+	
+	public int quantityDropped(Random random)
+	{
+		Random rand = new Random();
+		
+		int randQuanityDropped = rand.nextInt(3) + 1;
+		
+		return randQuanityDropped;
+	}
+}

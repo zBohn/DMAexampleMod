@@ -1,0 +1,12 @@
+package DMAexample.food;
+
+import net.minecraft.item.ItemFood;
+
+public class Strawberry extends ItemFood {
+
+	public Strawberry(int i, float healthRestored, boolean petFriendly) 
+	{
+		super(i, healthRestored, petFriendly);
+	}
+
+}

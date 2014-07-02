@@ -1,0 +1,30 @@
+package DMAexample.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.util.IIcon;
+
+public class HardDirt extends Block 
+{
+	
+	//Side Variables
+	public IIcon side0;
+	
+	public HardDirt(Material material) 
+	{
+		super(material);
+		// TODO Auto-generated constructor stub
+		
+		setHardness(1.0f);//As hard as dirt
+		setStepSound(Block.soundTypeGravel);//Make it sound like Gravel when stepped/mined.
+		setCreativeTab(CreativeTabs.tabBlock);//Put this item into the Block Tab in Creative.
+		//setBlockTextureName("dmaexample:trans_dirt");//Look like Dirt
+		//setBlockTextureName("dirt");
+		//0=Wood, 1=Stone, 2=Iron, 3=Diamond
+		setHarvestLevel("pickaxe,shovel", 0);
+		setBlockName("harddirt");
+		//setBlockTextureName(p_149658_1_)
+	}
+
+}

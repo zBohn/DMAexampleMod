@@ -1,0 +1,12 @@
+package DMAexample.items;
+
+import net.minecraft.item.Item;
+
+public class MithrilIngot extends Item {
+
+	public MithrilIngot() 
+	{
+		// TODO Auto-generated constructor stub
+	}
+
+}
